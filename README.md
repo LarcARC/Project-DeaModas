@@ -1,2 +1,2 @@
-# Project-DeaModas
-Projeto de um site para uma loja de roupas e cosméticos..
+# Project-DesmatZero
+Projeto de um site e um aplicativo para denúncias sobre desmatamento.
