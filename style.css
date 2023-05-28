@@ -52,13 +52,12 @@ header {
   font-weight: 500;
 }
 
-.login a:nth-child(3) {
+.botao a{
   color: #fff;
 }
 
 .botao {
   background: #24613b;
-  color: #fff;
   border-radius: 20px;
   display: flex;
   flex-direction: row;
