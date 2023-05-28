@@ -7,7 +7,7 @@
 }
 
 header {
-  top: -65px;
+  margin-top: 30px;
   color: #fff;
   margin-inline: 15%;
   display: flex;
@@ -17,7 +17,7 @@ header {
 }
 
 .logo {
-  width: 256px;
+  width: 150px;
   margin: 0;
   padding: 0;
 }
@@ -34,7 +34,7 @@ header {
   font-family: "Montserrat";
   font-style: normal;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .login {
@@ -52,7 +52,7 @@ header {
   font-weight: 500;
 }
 
-.botao a{
+.botao a {
   color: #fff;
 }
 
