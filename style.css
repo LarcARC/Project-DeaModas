@@ -67,32 +67,73 @@ header {
   width: 120px;
   height: 25px;
   margin-left: 30px;
+  transition: 0.5s;
 }
 
-.imagem1 img {
+.botao:hover {
+  background-color: #33754d;
+}
+
+.imagem1 {
+  background-image: url("assets/images/desmatamento-amazonia.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   margin-top: 32px;
   width: 100%;
-  height: 800px;
-  box-shadow: inset 0px 0px 100px 86px rgba(0, 0, 0, 0.5);
+  height: 700px;
+  box-shadow: inset 0px 1000px 1000px 86px rgba(0, 0, 0, 0.452);
 }
-.texto-imagem{
-  position: absolute;
-width: 978px;
-height: 238px;
-left: calc(50% - 978px/2 - 4px);
-top: 308px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 800;
-font-size: 70px;
-line-height: 85px;
-text-align: center;
-
-color: #FFFFFF;
+.imagem1 h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 50px;
 }
-.denu{
-  background-color: orange;
+
+.denu {
+  background-color: #f18f00;
   color: #fff;
+  padding: 0 20px 0 20px;
+  border-radius: 20px;
+}
+
+.imagem1 h3 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.botao2 {
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #24613b;
+  color: #fff;
+  padding: 10px 30px 10px 30px;
+  transition: 0.5s;
+}
+
+.botao2 a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 28px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.botao2:hover {
+  background-color: #33754d;
 }
