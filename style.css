@@ -76,3 +76,23 @@ header {
   height: 800px;
   box-shadow: inset 0px 0px 100px 86px rgba(0, 0, 0, 0.5);
 }
+.texto-imagem{
+  position: absolute;
+width: 978px;
+height: 238px;
+left: calc(50% - 978px/2 - 4px);
+top: 308px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 70px;
+line-height: 85px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.denu{
+  background-color: orange;
+  color: #fff;
+}
