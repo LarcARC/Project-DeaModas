@@ -52,31 +52,9 @@ header {
   font-weight: 500;
 }
 
-.botao a {
-  color: #fff;
-}
-
-.botao {
-  background: #24613b;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  width: 120px;
-  height: 25px;
-  margin-left: 30px;
-  transition: 0.5s;
-}
-
-.botao:hover {
-  background-color: #33754d;
-}
 
 .imagem1 {
-  background-image: url("assets/images/desmatamento-amazonia.png");
-  background-size: cover;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -85,7 +63,6 @@ header {
   margin-top: 32px;
   width: 100%;
   height: 700px;
-  box-shadow: inset 0px 1000px 1000px 86px rgba(0, 0, 0, 0.452);
 }
 
 .imagem1 h1 {
@@ -94,12 +71,12 @@ header {
   font-weight: 800;
   font-size: 70px;
   text-align: center;
-  color: #ffffff;
+  color: #353535;
   margin-bottom: 50px;
 }
 
 .denu {
-  background-color: #f18f00;
+  background-color: #24613b;
   color: #fff;
   padding: 0 20px 0 20px;
   border-radius: 20px;
@@ -109,7 +86,7 @@ header {
   text-align: center;
   font-size: 26px;
   font-weight: 500;
-  color: #fff;
+  color: #5f5f5f;
 }
 
 .botao2 {
@@ -136,4 +113,48 @@ header {
 
 .botao2:hover {
   background-color: #33754d;
+}
+
+.fundo01 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 600px;
+
+  top: 711px;
+  background: #EBE2CD;
+}
+
+.textos {
+  margin-inline: 15%;
+}
+
+.texto01 {
+  width: 367px;
+  height: 160px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 55px;
+
+  color: #353535;
+}
+
+.texto02 {
+  width: 400px;
+  height: 150px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #353535;
+
 }
