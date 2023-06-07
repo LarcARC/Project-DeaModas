@@ -7,17 +7,21 @@
 }
 
 header {
-  margin-top: 30px;
+  padding-top: 19px;
+  padding-bottom: 8px;
   color: #fff;
-  margin-inline: 15%;
+  margin-inline: 8%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: #fff;
+  z-index: 99;
+  border-bottom: 1px solid rgba(95, 95, 95, 0.2);
 }
 
 .logo {
-  width: 150px;
+  width: 139px;
   margin: 0;
   padding: 0;
 }
@@ -30,131 +34,147 @@ header {
 .cabecalho a {
   text-decoration: none;
   padding-right: 40px;
-  color: #5f5f5f;
+  color: rgba(95, 95, 95, 0.81);
   font-family: "Montserrat";
   font-style: normal;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
+  transition: 0.3s;
 }
 
-.login {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.cabecalho a:hover {
+  color: #353535;
 }
 
 .login a {
   text-decoration: none;
-  color: #24613b;
+  color: #353535;
   font-family: "Montserrat";
   font-style: normal;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 600;
+  width: 132px;
+  height: 48px;
+  padding: 12px 30px;
+  background-color: #f5f2ef;
+  border-radius: 10px;
+  transition: 0.3s;
 }
 
+.login a:hover {
+  background-color: #353535;
+  color: #fff;
+}
 
-.imagem1 {
+.section1 {
   background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  margin-top: 32px;
   width: 100%;
-  height: 700px;
+  height: 600px;
 }
 
-.imagem1 h1 {
+.section1 h1 {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 800;
-  font-size: 70px;
+  font-size: 52px;
   text-align: center;
   color: #353535;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .denu {
   background-color: #24613b;
   color: #fff;
-  padding: 0 20px 0 20px;
-  border-radius: 20px;
+  padding: 5px 20px;
+  border-radius: 14px;
 }
 
-.imagem1 h3 {
+.section1 h3 {
   text-align: center;
-  font-size: 26px;
+  font-size: 19px;
   font-weight: 500;
   color: #5f5f5f;
 }
 
 .botao2 {
-  border-radius: 20px;
-  width: 200px;
-  height: 40px;
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #24613b;
-  color: #fff;
-  padding: 10px 30px 10px 30px;
-  transition: 0.5s;
+  margin-top: 34px;
+}
+
+.botao2 img {
+  width: 30px;
+  left: 60px;
+  top: 8px;
+  position: relative;
+}
+
+.botao2 img:hover {
+  background: url(assets/images/download-branco.svg);
+  background-size: cover;
+  z-index: 99;
 }
 
 .botao2 a {
+  width: 208px;
+  height: 50px;
+  padding: 14px 36px 14px 67px;
+  border-radius: 7px;
+  background-color: #f5f2ef;
   text-decoration: none;
   text-align: center;
-  font-size: 28px;
+  font-size: 17px;
+  color: #353535;
+  font-weight: 800;
+  transition: 0.3s;
+}
+
+.botao2 a:hover {
+  background-color: #353535;
   color: #fff;
-  font-weight: 600;
 }
 
-.botao2:hover {
-  background-color: #33754d;
+.section2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  height: 600px;
+  background: #ebe2cd;
 }
 
-.fundo01 {
+.div1 {
+  margin-inline: 8%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  position: absolute;
-  width: 100%;
-  height: 600px;
-
-  top: 711px;
-  background: #EBE2CD;
 }
 
-.textos {
-  margin-inline: 15%;
-}
-
-.texto01 {
-  width: 367px;
-  height: 160px;
-
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
+.section2 h3 {
+  padding-right: 20px;
   font-size: 45px;
-  line-height: 55px;
+  color: #353535;
+  font-weight: 600;
+  margin-right: 70px;
+}
 
+.section2 p {
+  width: 562px;
+  height: 220px;
+  font-size: 22px;
+  font-weight: medium;
   color: #353535;
 }
 
-.texto02 {
-  width: 400px;
-  height: 150px;
-
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 30px;
-
-  color: #353535;
-
+.q1 {
+  background-color: #d9d9d9;
+  margin-inline: 0;
+  padding: 0;
+  width: 370px;
+  height: 274px;
+  border-radius: 20px;
 }
