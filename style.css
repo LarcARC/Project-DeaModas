@@ -6,7 +6,8 @@
   padding: 0;
 }
 
-header {
+/*NavBar*/
+.navbar {
   padding-top: 19px;
   padding-bottom: 8px;
   color: #fff;
@@ -18,6 +19,21 @@ header {
   background-color: #fff;
   z-index: 99;
   border-bottom: 1px solid rgba(95, 95, 95, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.3s;
+}
+
+.navbar.shadow {
+  box-shadow: 0 24px 40px -20px rgba(0, 0, 0, 0.2);
+  margin-inline: 0;
+  z-index: 98;
+  padding-inline: 8%;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .logo {
@@ -44,6 +60,7 @@ header {
 
 .cabecalho a:hover {
   color: #353535;
+  font-size: 20px;
 }
 
 .login a {
@@ -66,6 +83,7 @@ header {
   color: #fff;
 }
 
+/*Primeira seção*/
 .section1 {
   background-color: #fff;
   display: flex;
