@@ -298,7 +298,8 @@
 
 .cardd div:nth-child(1) {
   height: 250px;
-  background-color: #a9a9a9;
+  background-image: url(assets/images/not1.png);
+  background-size: cover;
   border-radius: 20px 20px 10px 10px;
   display: flex;
   justify-content: start;
@@ -319,4 +320,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.cardd h3 {
+  padding: 21px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #353535;
 }
