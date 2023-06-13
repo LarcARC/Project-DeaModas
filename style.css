@@ -319,6 +319,32 @@
   transition: 0.5s;
 }
 
+.cardd:nth-child(2) div:nth-child(1) {
+  height: 250px;
+  background-image: url(assets/images/not2.png);
+  box-shadow: inset 1000px 1000px 980px rgba(0, 0, 0, 0.342);
+  background-size: cover;
+  border-radius: 20px 20px 10px 10px;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  padding: 0 0 11px 11px;
+  transition: 0.5s;
+}
+
+.cardd:nth-child(3) div:nth-child(1) {
+  height: 250px;
+  background-image: url(assets/images/not3.png);
+  box-shadow: inset 1000px 1000px 980px rgba(0, 0, 0, 0.342);
+  background-size: cover;
+  border-radius: 20px 20px 10px 10px;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  padding: 0 0 11px 11px;
+  transition: 0.5s;
+}
+
 .cardd div:nth-child(1):hover {
   box-shadow: inset 1000px 1000px 980px rgba(0, 0, 0, 0);
 }
