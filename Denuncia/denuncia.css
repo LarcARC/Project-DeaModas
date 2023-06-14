@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;800;900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*NavBar*/
+.navbar {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  color: #fff;
+  padding-inline: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  z-index: 99;
+  border-bottom: 1px solid rgba(95, 95, 95, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.3s;
+}
+
+.navbar.shadow {
+  box-shadow: 0 24px 40px -20px rgba(0, 0, 0, 0.2);
+  margin-inline: 0;
+  z-index: 98;
+  padding-inline: 8%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  width: 139px;
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+}
+
+.cabecalho a {
+  text-decoration: none;
+  padding-right: 40px;
+  color: rgba(95, 95, 95, 0.81);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.cabecalho a:hover {
+  color: #353535;
+  font-size: 20px;
+}
+
+.login a {
+  text-decoration: none;
+  color: #353535;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 600;
+  width: 132px;
+  height: 48px;
+  padding: 12px 30px;
+  background-color: #f5f2ef;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.login a:hover {
+  background-color: #353535;
+  color: #fff;
+}
+
+.rank1{
+    
+background-color: #4CAF50;
+color: #FFFFFF;
+width: 50%;
+margin: 0;
+float: left;
+padding: 100px;
+}
