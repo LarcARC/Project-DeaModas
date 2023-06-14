@@ -177,31 +177,6 @@ footer {
   margin-top: 25px;
 }
 
-.coluna2 {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-}
-
-.coluna2 h3 {
-  color: #fff;
-  font-size: 35px;
-  margin-bottom: 20px;
-}
-
-.coluna2 a {
-  padding-top: 15px;
-  color: #fff;
-  font-size: 20px;
-  text-decoration: none;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.coluna2 a:hover {
-  color: #e54e81;
-}
-
 .coluna3 {
   display: flex;
   flex-direction: column;
