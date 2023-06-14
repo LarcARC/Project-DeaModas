@@ -411,8 +411,9 @@
 }
 
 .section5 img {
+  display: block;
   position: absolute;
-  right: -950px;
+  right: -700px;
 }
 
 .section5 h2 {
