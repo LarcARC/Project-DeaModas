@@ -554,3 +554,61 @@
     transform: rotateX(0deg);
   }
 }
+
+/*Sexta seção*/
+.section6 {
+  margin-top: 220px;
+}
+
+.section6 h3 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #353535;
+  text-align: center;
+}
+
+.rating {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.rating img {
+  padding: 0 80px 0 80px;
+  margin-bottom: 80px;
+}
+
+.rating img:nth-child(1) {
+  border-right: 1px solid #738c7a44;
+}
+
+.comments {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  grid-column-gap: 16px;
+  align-items: center;
+}
+
+.note {
+  background-color: #ecf1ec;
+  display: inline-block;
+  color: #003c2f;
+  font-weight: bolder;
+  font-size: 18px;
+  border-radius: 10px;
+  width: auto;
+  padding: 20px 18px 10px 18px;
+}
+
+.note p {
+  color: #003c2f;
+}
+
+.note span {
+  color: #738c7a;
+}
+
+.print img{
+  width: 550px;
+}
